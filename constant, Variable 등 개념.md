@@ -21,18 +21,19 @@
 
 tf.constant()
 - Mutable
-- type: `<class 'tensorflow.python.framework.ops.EagerTensor'>`
+- *type:* `<class 'tensorflow.python.framework.ops.EagerTensor'>`
 
 tf.Variable()
 - Immutable.
-- type: `<class 'tensorflow.python.ops.resource_variable_ops.ResourceVariable'>`
+- *type:* `<class 'tensorflow.python.ops.resource_variable_ops.ResourceVariable'>`
 
-t1 = tf.constant(test_list)
-t2 = tf.constant(test_list)
 
 <hr>
 
 ### tf.constant와 tf.Variable의 타입 변환
+
+t1 = tf.constant(test_list)
+t2 = tf.constant(test_list)
 
 `t1 = tf.constant(test_list)`
 
