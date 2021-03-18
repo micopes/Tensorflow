@@ -55,8 +55,6 @@ tf.constant() -> tf.Variable()로 바꿔주려면
 ### 더하면 타입이 어떻게 변할까?
 
 - `tf.constant() + tf.constant() -> EagarTensor(Immutable)`
-<br>
 - `tf.constant() + tf.Variable() -> EagarTensor(Immutable)`
-<br>
 - `tf.Variable() + tf.Variable() -> EagarTensor(Immutable)`
 
